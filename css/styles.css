@@ -9,6 +9,91 @@
 }
 
 html {
-  background: var(--secondary);
-  color: var(--primary);
+  /*background: var(--secondary);
+  color: var(--primary);*/
+}
+
+body {
+	font-family: 'poppins';
+}
+
+main {
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 50px 100px;
+	//background: url(../assets/bg-01.jpg);
+	background: url(../assets/bg-02.jpg);
+	background-repeat: no-repeat;
+	//background-size: cover;
+}
+
+.avatar-container {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: url(../assets/avatar.jpg);
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+}
+
+p {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.github-ref, .extra-info, .extra-info div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.github-ref img {
+	width: 30px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.github-ref span {
+	color: grey;
+}
+
+.extra-info {
+	margin-top: 30px;
+}
+
+.extra-info div:first-child {
+	margin-right: 20px;
+}
+
+.extra-info img {
+	width: 30px;
+	height: auto;
+	margin-right: 5px;
+}
+
+.skill-container {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skill {
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: #ed1c24;
+}
+
+.html {width: 90%;}
+.css {width: 70%;}
+.js {width: 60%;}
+
+footer {
+	margin-top: 50px;
 }
